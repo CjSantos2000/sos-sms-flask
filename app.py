@@ -22,7 +22,7 @@ def send_sms():
     # return address
     sender_name = "SEMAPHORE"
     message = "Test Message"  # Replace Message Template
-    number = "09511808537" "09511808537,09915236234"  # Get from firebase
+    number = "09511808537"  # "09511808537,09915236234"  # Get from firebase
     params = (
         ("apikey", api_key),
         ("sendername", sender_name),
